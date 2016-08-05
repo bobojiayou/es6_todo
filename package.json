@@ -1,0 +1,31 @@
+{
+  "name": "es6_todo",
+  "version": "1.0.0",
+  "description": "a temple es6 project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobojiayou/es6_todo.git"
+  },
+  "keywords": [
+    "yangbo"
+  ],
+  "author": "yangbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobojiayou/es6_todo/issues"
+  },
+  "homepage": "https://github.com/bobojiayou/es6_todo#readme",
+  "devDependencies": {
+    "concat": "^0.0.1-security",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
