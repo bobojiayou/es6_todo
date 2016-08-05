@@ -10,3 +10,6 @@ var gulp = require('gulp'),
     livereload = require('livereload');
 
 //start 
+gulp.task('del',[],function(){
+
+});
