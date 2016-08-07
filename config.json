@@ -1,0 +1,10 @@
+{
+	"path": {
+		"scripts": "src/js/*.js",
+		"styles": "src/css/*.css"
+	},
+	"build": {
+		"js": "dest/js",
+		"css": "dest/css"
+	}	
+}
