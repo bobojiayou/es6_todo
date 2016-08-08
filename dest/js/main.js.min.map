@@ -1,0 +1,1 @@
+{"version":3,"sources":["1.js","2.js"],"names":["yangbo","console","log","xiaofen"],"mappings":"YAAA,SAASA,UACRC,QAAQC,IAAI;YCDN,SAASC,WACfF,QAAQC,IAAI,+EADGC,QAAAA","file":"main.js","sourcesContent":["function yangbo() {\r\n\tconsole.log(\"傻逼小芬\")\r\n}","export function xiaofen() {\r\n\tconsole.log(\"I am xiaofen\")\r\n}"],"sourceRoot":"/source/"}

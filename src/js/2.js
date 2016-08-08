@@ -1,6 +1,3 @@
-import {yangbo} from './2'
-
 export function xiaofen() {
-	yangbo()
+	console.log("I am xiaofen")
 }
-xiaofen();

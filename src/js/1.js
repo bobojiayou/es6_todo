@@ -1,3 +1,3 @@
-export function yangbo(argument) {
-	console.log("傻逼小芬");
+function yangbo() {
+	console.log("傻逼小芬")
 }

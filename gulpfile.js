@@ -11,10 +11,12 @@ var reload = browserSync.reload;
 gulp.task('minify-js', ['clean'], function() {
 	return gulp.src(config.path.scripts)
         .pipe(plugins.sourcemaps.init())
-		.pipe(plugins.babel())
+		.pipe(plugins.babel({
+			presets: ['es2015']
+		}))
+		.pipe(plugins.uglify())
 		.pipe(plugins.concat('main.js'))
 		.pipe(plugins.sourcemaps.write("."))
-		.pipe(plugins.uglify())
 		.pipe(plugins.rename({
 			suffix: '.min'
 		}))
@@ -28,8 +30,8 @@ gulp.task('minify-js', ['clean'], function() {
 /* start minify css */
 gulp.task('minify-css', ['clean'], function() {
 	return gulp.src(config.path.styles)
-		.pipe(plugins.concat('main.css'))
 		.pipe(plugins.minifyCss())
+		.pipe(plugins.concat('main.css'))
 		.pipe(plugins.rename({
 			suffix: '.min'
 		}))
